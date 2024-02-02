@@ -1,0 +1,290 @@
+.top {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.top .div {
+  background-color: #ffffff;
+  width: 1200px;
+  height: 2338px;
+  position: relative;
+}
+
+.top .f {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 140px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  /* padding: 15px 60px; */
+  position: absolute;
+  top: 2198px;
+  left: 0;
+}
+
+.top .frame {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.top .frame-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.top .logo {
+  position: relative;
+  width: 212.6px;
+  height: 56.69px;
+}
+
+.top .ig-wrapper {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.top .ig {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.top .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.top .about {
+  position: relative;
+  width: 52.87px;
+  height: 16.1px;
+}
+
+.top .work {
+  position: relative;
+  width: 47.28px;
+  height: 16.1px;
+}
+
+.top .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.top .h {
+  display: flex;
+  width: 1200px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px 60px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top .img {
+  margin-top: -3.34px;
+  margin-bottom: -3.35px;
+  position: relative;
+  width: 212.6px;
+  height: 56.69px;
+}
+
+.top .top-img {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  top: 70px;
+  left: 0;
+  background-image: url(./img/top-img.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.top .IMG {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.top .about-2 {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  top: 885px;
+  left: 0;
+}
+
+.top .UI-UX {
+  position: absolute;
+  width: 445px;
+  top: 332px;
+  left: 155px;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-900);
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  line-height: 30px;
+}
+
+.top .text-wrapper-2 {
+  position: absolute;
+  top: 262px;
+  left: 153px;
+  font-family: "Noto Sans JP-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--gray-900);
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.top .ig-2 {
+  top: 272px;
+  left: 343px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.top .IMG-2 {
+  position: absolute;
+  width: 326px;
+  height: 434px;
+  top: 133px;
+  left: 676px;
+  object-fit: cover;
+}
+
+.top .text-wrapper-3 {
+  position: absolute;
+  top: 162px;
+  left: 153px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--gray-900);
+  font-size: 32px;
+  letter-spacing: -2.88px;
+  line-height: 30px;
+}
+
+.top .about-3 {
+  position: absolute;
+  width: 104px;
+  height: 32px;
+  top: 56px;
+  left: 548px;
+}
+
+.top .work-2 {
+  position: absolute;
+  width: 1200px;
+  height: 550px;
+  top: 1636px;
+  left: 0;
+}
+
+.top .work-3 {
+  position: absolute;
+  width: 92px;
+  height: 32px;
+  top: 40px;
+  left: 554px;
+}
+
+.top .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 136px;
+  left: 61px;
+}
+
+.top .work-wrapper {
+  position: relative;
+  width: 333px;
+  height: 237px;
+  background-color: var(--gray-100);
+}
+
+.top .work-4 {
+  position: absolute;
+  width: 333px;
+  height: 237px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.work-4:hover {
+  transform: scale(1.10);
+  transition: all 700ms;
+}
+
+.top .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.top .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 136px;
+  left: 434px;
+}
+
+.top .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 136px;
+  left: 807px;
+}
